@@ -28,7 +28,7 @@ public class Map : MonoBehaviour
     [Header("Map Size")]
     public int width = 8;
     public int height = 9;
-    public Vector3 hexScale = new Vector3(0.35, 0.35, 1); // Z is not that important bcs im working on 2D game
+    public Vector3 hexScale = new Vector3(0.35f, 0.35f, 1); // Z is not that important bcs im working on 2D game
 
     [Header("Map Settings")]
     public int bombScore = 1000;
